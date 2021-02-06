@@ -8,6 +8,9 @@ SQLServer2014EzApi is producing SQL Server Packages with the following charateri
 2. PackageFormatVersion --> 6
 3. TargetSQLServerVersion --> 2012
 
+*Based on Microsoft Intructions, SQLServerPackages should be deployed on SQLServer using aligned version of Management Studio.
+**Management Studio deployment wizard may affect the Build and PackageFormatVersion in case of using a newer version of SSMS for deploying package with older TargetSQLServerVersion version.
+
 ## Contributing
 
 1. Fork it!
