@@ -2,14 +2,6 @@
 
 Fork of [EzApi](http://sqlsrvintegrationsrv.codeplex.com/releases/view/21238) adapted for SQL Server 2012 version. Stand-alone edition forked by KoureasS & GitHub.
 
-## Installation and usage
-
-The preferred way is to [Nuget](https://www.nuget.org/packages/EzApi/)
-
-`PM> Install-Package EzApi` via [Package Manager Console](https://docs.nuget.org/docs/start-here/using-the-package-manager-console)
-
-Alternatively you can compile include the output `EzApi.dll` on your project, or include this project directly in your solution.
-
 ## Contributing
 
 1. Fork it!
