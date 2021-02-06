@@ -2,6 +2,12 @@
 
 Fork of [EzApi](http://sqlsrvintegrationsrv.codeplex.com/releases/view/21238) adapted for SQL Server 2012 version. Stand-alone edition forked by KoureasS & GitHub.
 
+## Instructions
+SQLServer2014EzApi is producing SQL Server Packages with the following charateristics:
+1. Build --> 11
+2. PackageFormatVersion --> 6
+3. TargetSQLServerVersion --> 2012
+
 ## Contributing
 
 1. Fork it!
