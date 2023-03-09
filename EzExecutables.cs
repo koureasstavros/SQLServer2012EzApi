@@ -604,6 +604,12 @@ namespace Microsoft.SqlServer.SSIS.EzAPI
             LoadFromXML(File.ReadAllText(fileName), events);
         }
 
+        public int MaxConcurrentExecutables
+        {
+            get { return (m_exec as Package).MaxConcurrentExecutables; }
+            set { (m_exec as Package).MaxConcurrentExecutables = value; }
+        }
+
         public DtsErrors Errors { get { return (m_exec as Package).Errors; } }
 	}
 
