@@ -3,7 +3,7 @@
 Fork of [EzApi](http://sqlsrvintegrationsrv.codeplex.com/releases/view/21238) adapted for SQL Server 2012 version. Stand-alone edition forked by KoureasS & GitHub.
 
 ## Instructions
-SQLServer2014EzApi is producing SQL Server Packages with the following charateristics:
+SQLServer2012EzApi is producing SQL Server Packages with the following charateristics:
 1. Build --> 11
 2. PackageFormatVersion --> 6
 3. TargetSQLServerVersion --> 2012
@@ -16,6 +16,46 @@ SQLServer2014EzApi is producing SQL Server Packages with the following charateri
 
 ## Changelog
 Major changes from SQLServer2008EzApi --> SQLServer2012EzApi
+
+1. EzProject.Project
+2. EzProject.PackageItems
+3. EzProject.ConnectionManagerItems
+4. EzProject.Parameters
+5. EzProject.Password
+6. EzProject.CreationDate
+7. EzProject.CreatorName
+8. EzProject.Description
+9. EzProject.ID
+10. EzProject.Name
+11. EzProject.ProtectionLevel
+12. EzProject.VersionBuild
+13. EzProject.VersionComments
+14. EzProject.VersionMajor
+15. EzProject.VersionMinor
+16. EzProject.AddPackage
+17. EzProject.InsertPackage
+18. EzProject.RemovePackageAt
+19. EzProject.RemovePackage
+20. EzProject.AddConnectionManager
+21. EzProject.RemoveConnectionManagerAt
+22. EzProject.RemoveConnectionManager
+23. EzProject.AddProjectParameter
+24. EzProject.RemoveParameter
+25. EzProject.OpenProject
+26. EzProject.CloseProject
+27. EzProject.SaveTo
+28. EzProject.SaveAs
+29. EzProject.Save
+30. EzSourceDestinationProject.AddPackage
+31. EzSourceDestinationProject.AddAdoNetPackage
+32. EzSourceDestinationProject.AddOleDbPackage
+33. EzSourceDestinationProject.AddOleDbToFilePackage
+34. EzSourceDestinationProject.AddFlatFileToOleDbPackage
+35. EzTransformProject.AddPackage
+36. EzTransformProject.AddAdoNetPackage
+37. EzTransformProject.AddOleDbPackage
+38. EzTransformProject.AddOleDbToFilePackage
+39. EzTransformProject.AddFlatFileToOleDbPackage
 
 ## Contributing
 
