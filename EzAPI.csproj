@@ -103,6 +103,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>References\microsoft.sqlserver.pipelinehost.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.SqlServer.ScriptTask.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.SqlServer.Smo, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>References\Microsoft.SqlServer.Smo.dll</HintPath>
